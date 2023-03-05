@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>weatherApp</artifactId>
+	<artifactId>TestweatherApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>weatherApp</name>
 	<description>Demo project for Spring Boot</description>
@@ -27,8 +27,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+		</dependency>
 	</dependencies>
-
+	
 	<build>
 		<plugins>
 			<plugin>
